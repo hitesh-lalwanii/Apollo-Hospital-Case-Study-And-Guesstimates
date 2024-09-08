@@ -296,27 +296,24 @@ Question 5: Estimate the potential annual cost savings for a hospital from optim
 
 ### Guesstimation Flowchart
 
-```mermaid
-graph TD;
-    A[Approach Selection] --> B{Choose Approach};
-    B --> C[Demand Side];
-    B --> D[Supply Side];
-    C --> E[Define Starting Points];
-    D --> E[Define Starting Points];
-    E --> F[Estimation Steps];
-    F --> G[Break Down Estimation];
-    G --> H[Calculation];
-    H --> I[Apply Ratios and Aggregate Data];
-    I --> J[Final Estimation];
-    J --> K[Calculate Final Percentage];
+
+
+| Step               | Description                                               |
+|--------------------|-----------------------------------------------------------|
+| **Approach Selection**   | Choose between Demand Side or Supply Side Approach       |
+| **Define Starting Points** | Start with definite numbers like population/city area   |
+| **Estimation Steps**     | Break down the estimation into smaller steps            |
+| **Calculation**          | Apply ratios and aggregate data                         |
+| **Final Estimation**     | Calculate the final percentage                          |
+
 
 
 Method: To solve these questions, we implemented a demand-side approach. We started with the total population and bifurcated it at each step to arrive at the final answer.
 
 
-Conclusion
+## Conclusion
 
-Conclusion
+### Conclusion
 The Healthcare-Industries---Case-Studies-Guesstimates project encapsulates a comprehensive exploration of the healthcare sector through detailed case studies and guesstimates, with a specific focus on Apollo 247 Pharmacy. By examining product dissection, database management, schema design, and revenue/profit growth strategies, this repository offers valuable insights and data-driven approaches to address real-world challenges within the industry.
 
 Apollo 247 Pharmacy, a significant player in the healthcare sector, is at the forefront of addressing the needs of a rapidly evolving market. The project highlights the critical role of data science in optimizing pharmacy operations, enhancing customer experience, and driving revenue growth. Through detailed analysis and innovative strategies, this project underscores how leveraging data can lead to more efficient operations, better decision-making, and improved patient outcomes.
